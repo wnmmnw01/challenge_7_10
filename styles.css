@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+}
+.recipes {
+  padding: 20px;
+  width: 300px;
+  height: 600px;
+  background-color: #f8f8f8;
+  border-radius: 30px;
+  box-shadow: gray 20px 20px 50px 0px, gray inset -2px -2px 10px 0px;
+}
+.recipes .recipes__header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 600;
+}
+.recipes .recipes__popular {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 200px;
+}
+.recipes .recipes__popular-title {
+  display: flex;
+  justify-content: space-between;
+  height: 20%;
+}
+.recipes__popular-title span {
+  font-size: 14px;
+  font-weight: 600;
+}
+.recipes__popular-title a {
+  font-size: 12px;
+  font-weight: 600;
+  color: purple;
+  text-decoration: none;
+}
+.recipes .recipes__popular-content {
+  display: flex;
+  justify-content: space-between;
+  height: 80%;
+}
+.recipes .recipes__popular-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.recipes__popular-category1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(117, 19, 93, 0.73)
+    ),
+    url("img/pop1.jpg");
+  height: 76px;
+  width: 120px;
+  border-radius: 10%;
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+}
+.recipes__popular-category2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(117, 19, 93, 0.73)
+    ),
+    url("img/pop2.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 76px;
+  width: 120px;
+  border-radius: 10%;
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+}
+.recipes__popular-category3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(117, 19, 93, 0.73)
+    ),
+    url("img/pop3.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 76px;
+  width: 120px;
+  border-radius: 10%;
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+}
+.recipes__popular-category4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(117, 19, 93, 0.73)
+    ),
+    url("img/pop4.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 76px;
+  width: 120px;
+  border-radius: 10%;
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+}
+.recipes .recipes__other {
+  width: 100%;
+  height: 250px;
+  margin-top: 20px;
+}
+.recipes .recipes__other-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+.recipes__other-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  margin-top: 15px;
+}
+.recipes__other-category {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 40px;
+  background-color: white;
+  border-radius: 5%;
+}
+.recipes__other-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.recipes .category__name {
+  font-size: 12px;
+}
+.recipes .category__content {
+  font-size: 11px;
+  opacity: 50%;
+}
+.recipes__other i {
+  color: purple;
+  font-size: 11px;
+}
+.recipes .recipes__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: white;
+  height: 30px;
+  border-radius: 0 0 20px 20px;
+}
+.recipes__navbar i {
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 50%;
+  font-size: 14px;
+}
+.recipes__navbar i:nth-child(2) {
+  color: purple;
+  opacity: inherit;
+}
